@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.nav-list {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.nav-txt {
+    color: white;
+    font-family: var(--font-abel);
+    font-size: 25px;
+}

@@ -1,0 +1,35 @@
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.main-title {
+    color: white;
+    font-family: var(--font-abel);
+    font-size: 32px;
+    /* position: relative; */
+}
+
+/* .main-title::after{
+    content: '|';
+    position: absolute;
+    right: 0;
+    color: white;
+    background-color: #141414;
+    width: 100%;
+    animation: typing 5s steps(62),
+                line 1s infinite;
+} */
+ 
+/* @keyframes typing {
+    to {
+        width: 0%
+    }
+}
+
+@keyframes line {
+    50%{
+        color: transparent;
+    }
+} */

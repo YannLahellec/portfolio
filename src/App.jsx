@@ -1,4 +1,6 @@
 import NavBar from "./components/NavBar"
+import Description from "./components/Description"
+import "./app.css"
 
 function App() {
 
@@ -6,6 +8,7 @@ function App() {
   return (
     <>
     <NavBar/>
+    <Description/>
     </>
   )
 }
