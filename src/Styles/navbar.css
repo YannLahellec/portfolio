@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
+    height: 5rem;
 }
 
 .nav-list {
@@ -16,7 +16,8 @@
 }
 
 .nav-txt {
-    color: white;
+    color: #DEDEDE;
     font-family: var(--font-abel);
     font-size: 25px;
+    cursor: pointer;
 }
