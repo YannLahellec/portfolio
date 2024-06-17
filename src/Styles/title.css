@@ -5,7 +5,7 @@
   height: 12rem;
 }
 .main-title {
-  color: #dedede;
+  color: var(--txt-color);
   font-family: var(--font-abel);
   font-size: 30px;
   position: relative;

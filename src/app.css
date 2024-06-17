@@ -7,6 +7,7 @@
     --font-abel: "Abel";
 	--font-teko: "Teko";
 	--color-teko: #FFCE95;
+	--txt-color: #DEDEDE;
 
 }
 
@@ -56,4 +57,9 @@ table {
 
 body {
     background-color:var(--main-color);
+}
+
+p {
+	color: var(--txt-color);
+	font-family: var(--font-abel);
 }

@@ -16,7 +16,7 @@
 }
 
 .nav-txt {
-    color: #DEDEDE;
+    color: var(--txt-color);
     font-family: var(--font-abel);
     font-size: 25px;
     cursor: pointer;

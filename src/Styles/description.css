@@ -2,22 +2,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 6vh;
 }
 
 .txt-info {
+    font-family: Abel;
     padding-bottom: 20px;
 }
 
+
 .info-container {
     display: flex;
-    color: #DEDEDE;
+    color: var(--txt-color);
     font-family: var(--font--abel);
     font-size: 20px;
     width: 75%;
-    /* margin-left: 70px;
-    margin-right: 70px;
-    margin-top: 50px; */
 }
 
 .description-img {
@@ -29,7 +28,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     margin-left: 50px;
     margin-right: 50px;
 }

@@ -7,7 +7,7 @@ function Description() {
       <div className="description-container">
         <h1 className="description-title">A PROPOS DE MOI</h1>
         <div className="info-container">
-          {<img src={ImageDesc} alt="" className="description-img" />}
+          <img src={ImageDesc} alt="" className="description-img" />
           <div className="text-container">
             <p className="txt-info">
               Né au Mexique et ayant eu l’opportunité de vivre dans différents
