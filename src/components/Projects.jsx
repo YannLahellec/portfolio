@@ -88,7 +88,7 @@ function Projets() {
               )}
             </div>
             <section className="txt-section">
-              <h2>Rigol'App</h2>
+              <h2>RigolApp</h2>
               <p>
                 Projet lors du protojam sur une durée de 48h. Recherche du
                 concept conception et creation de application{" "}
