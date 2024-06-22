@@ -1,4 +1,4 @@
-import "../Styles/title.css"
+import "./title.css"
 
 function Title () {
     return (

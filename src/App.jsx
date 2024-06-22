@@ -1,22 +1,23 @@
-import NavBar from "./components/NavBar";
-import Title from "./components/Title";
-import Description from "./components/Description";
-import Projets from "./components/Projects";
-import Competences from "./components/Competences";
-import "./app.css"
+import { motion, useScroll, useSpring } from "framer-motion";
+import { Outlet } from "react-router-dom";
+import NavBar from "./components/Navbar/NavBar";
+import "./app.css";
 
 function App() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
 
-  
   return (
     <>
-    <NavBar/>
-    <Title/>
-    <Description/>
-    <Projets/>
-    <Competences/>
+      <motion.div className="progress-bar" style={{ scaleX }} />
+      <NavBar />
+      <Outlet/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

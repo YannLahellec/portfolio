@@ -1,13 +1,15 @@
 import { useState } from "react";
-import WildGram from "../assets/projets/wildgram.png";
-import BrainBox from "../assets/projets/brain box.png";
-import RigolApp from "../assets/projets/rigol.png";
-import "../Styles/project.css";
+import WildGram from "../../assets/projets/wildgram.png";
+import BrainBox from "../../assets/projets/brain box.png";
+import RigolApp from "../../assets/projets/rigol.png";
+import SoundWave from "../../assets/projets/soundwave.png";
+import "./project.css";
 
 function Projets() {
   const [projectOne, setProjectOne] = useState(false);
   const [projectTwo, setProjecTwo] = useState(false);
   const [projectThree, setProjectThree] = useState(false);
+  const [projectFour, setProjectFour] = useState(false);
 
   return (
     <>
@@ -92,6 +94,33 @@ function Projets() {
               <p>
                 Projet lors du protojam sur une durée de 48h. Recherche du
                 concept conception et creation de application{" "}
+              </p>
+            </section>
+          </article>
+          <article className="project-info">
+            <div
+              onMouseOver={() => setProjectFour(true)}
+              onMouseLeave={() => setProjectFour(false)}
+              className="img-container"
+            >
+              <img src={SoundWave} alt="WildGram" className="project-img" />
+              {projectFour && (
+                <button
+                  className="project-btn"
+                  onClick={() =>
+                    window.open("https://github.com/WildCodeSchool-2024-02/JS-Paris-BrainWaves-P3-Soundwave", "_blank")
+                  }
+                >
+                  GitHub Repo
+                </button>
+              )}
+            </div>
+            <section className="txt-section">
+              <h2 className="reverse-txt">SoundWave</h2>
+              <p className="reverse-txt">
+                Projet Full Stack en (cours de production) sur une durée de 2
+                mois. Ce projet est l'élabotation d'un site d'événemets pour les
+                collectifs français afin de mettre en avant leurs projets. Utilisation de MySql, Node.js, Express.js, React, JavaScript, Css et Html.
               </p>
             </section>
           </article>

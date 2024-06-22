@@ -1,0 +1,16 @@
+.hobby-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+}
+
+.img-icon {
+ cursor: pointer;
+ -webkit-filter: drop-shadow(5px 5px 5px #bc9b9b);
+ filter: drop-shadow(5px 5px 5px #e0e0e0);
+}
