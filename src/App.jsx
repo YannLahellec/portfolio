@@ -1,10 +1,6 @@
 import { motion, useScroll, useSpring } from "framer-motion";
+import { Outlet } from "react-router-dom";
 import NavBar from "./components/Navbar/NavBar";
-import Title from "./components/Title/Title";
-import Description from "./components/Description/Description";
-import Projets from "./components/Projets/Projects";
-import Competences from "./components/Competences/Competences";
-import ContactForm from "./components/ContactForm/ContactForm";
 import "./app.css";
 
 function App() {
@@ -19,11 +15,7 @@ function App() {
     <>
       <motion.div className="progress-bar" style={{ scaleX }} />
       <NavBar />
-      <Title />
-      <Description />
-      <Projets />
-      <Competences />
-      <ContactForm />
+      <Outlet/>
     </>
   );
 }

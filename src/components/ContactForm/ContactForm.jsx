@@ -1,8 +1,10 @@
+import "./contact.css"
+
 function ContactForm () {
     return(
-        <div>
+        <section className="contact-section">
             <h1>CONTACT</h1>
-        </div>
+        </section>
     )
 }
 
