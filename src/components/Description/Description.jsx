@@ -1,5 +1,5 @@
-import "../Styles/description.css";
-import ImageDesc from "../assets/img/photo_mrs 1.png";
+import "./description.css";
+import ImageDesc from "../../assets/img/photo_mrs 1.png";
 
 function Description() {
   return (

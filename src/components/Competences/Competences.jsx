@@ -1,10 +1,10 @@
-import Css from "../assets/icons/css3.png";
-import Html from "../assets/icons/html5.png";
-import Js from "../assets/icons/icons8-javascript-480.png";
-import Sql from "../assets/icons/mysql.png";
-import Node from "../assets/icons/nodejs.png";
-import React from "../assets/icons/react.png";
-import "../Styles/competences.css";
+import Css from "../../assets/icons/css3.png";
+import Html from "../../assets/icons/html5.png";
+import Js from "../../assets/icons/icons8-javascript-480.png";
+import Sql from "../../assets/icons/mysql.png";
+import Node from "../../assets/icons/nodejs.png";
+import React from "../../assets/icons/react.png";
+import "./competences.css";
 
 function Competences() {
   return (

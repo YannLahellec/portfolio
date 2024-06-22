@@ -21,7 +21,7 @@
 
 .project-info {
   display: flex;
-  padding-bottom: 5vh;
+  padding-bottom: 6rem;
 }
 
 .project-info:nth-child(odd) {
@@ -45,6 +45,7 @@
 .project-img {
   border-radius: 5px;
   height: 250px;
+  width:505px;
   opacity: 1;
   transition: opacity 1s ease 0s;
 }
@@ -59,8 +60,6 @@
   right: 205px;
   opacity: 1;
   transition: opacity 1s ease 0s;
-
-  /* top: 30rem; */
 }
 
 
@@ -88,5 +87,5 @@
 }
 
 .reverse-txt {
-  margin-left: 70px;
+  margin-left: 60px;
 }

@@ -63,3 +63,14 @@ p {
 	color: var(--txt-color);
 	font-family: var(--font-abel);
 }
+
+.progress-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 5px;
+	background: var(--color-teko);
+	transform-origin: 0%;
+	z-index: 1;
+}
