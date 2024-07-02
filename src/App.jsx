@@ -1,6 +1,7 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Outlet } from "react-router-dom";
 import NavBar from "./components/Navbar/NavBar";
+import Footer from "./components/Footer/Footer";
 import "./app.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <motion.div className="progress-bar" style={{ scaleX }} />
       <NavBar />
       <Outlet/>
+      <Footer/>
     </>
   );
 }
