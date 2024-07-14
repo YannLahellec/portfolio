@@ -1,5 +1,6 @@
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Outlet } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import NavBar from "./components/Navbar/NavBar";
 import Footer from "./components/Footer/Footer";
 import "./app.css";
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+      <ToastContainer theme="dark"/>
       <motion.div className="progress-bar" style={{ scaleX }} />
       <NavBar />
       <Outlet/>

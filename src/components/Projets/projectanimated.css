@@ -1,0 +1,14 @@
+#projects {
+  margin-top: 3rem;
+}
+
+.project-title {
+  font-family: var(--font-teko);
+  color: var(--color-teko);
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  align-items: center;
+  height: 5rem;
+}
