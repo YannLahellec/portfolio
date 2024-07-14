@@ -1,0 +1,13 @@
+.footer-container {
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+hr {
+    height: 0px;
+    width: 100%
+  }
+

@@ -1,0 +1,73 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        height: 70px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    label {
+        color: var(--txt-color);
+        font-family: var(--font-abel);
+        font-size: 20px;
+        padding: 1rem 0rem 1rem 0rem
+    }
+}
+
+.input-contact {
+    background-color: #171717;
+    border: none;
+    border-bottom: 1px solid var(--color-teko);
+    height: 25px;
+    width: 240px;
+    color: white
+}
+
+.input-contact-message {
+    background-color: #171717;
+    border: none;
+    border-bottom: 1px solid var(--color-teko);
+    height: 70px;
+    width: 240px;
+    color: white
+}
+
+.send-input {
+    margin-top: 1rem;
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    border-radius: 5px;
+    font-family: var(--font-abel);
+    font-size: 1em;
+}
+
+.contact-icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+
+.link-icon {
+    height: 100px;
+    cursor: pointer;
+}
+
+.git-icon {
+    height: 72px;
+    cursor: pointer;
+}

@@ -2,10 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 12rem;
+  padding-top: 3rem;
+  height: 20vh;
 }
 .main-title {
-  color: #dedede;
+  color: var(--txt-color);
   font-family: var(--font-abel);
   font-size: 30px;
   position: relative;
@@ -15,14 +16,12 @@
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid var(--color-teko); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  /* letter-spacing: 0.15em;  */
-  animation: typing 5s steps(60, end), blink-caret 0.75s step-end infinite;
+  animation: typing 5s steps(50, end), blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 70% }
+    to { width: 58% }
   }
   
   /* The typewriter cursor effect */
@@ -31,24 +30,8 @@
     50% { border-color: var(--color-teko); }
   }
 
-/* .main-title::after{
-    content: '|';
-    position: absolute;
-    right: 0;
-    color: #DEDEDE;
-    background-color: #141414;
-    width: 100%;
-    animation: typing 5s steps(62, end),
-                line 1s step-end infinite;
+@media screen and (max-width: 900px) {
+  .title-container {
+   display: none;
+  }
 }
- 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes line {
-    50%{
-        color: transparent;
-    }
-} */

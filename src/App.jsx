@@ -1,20 +1,27 @@
-import NavBar from "./components/NavBar";
-import Title from "./components/Title";
-import Description from "./components/Description";
-import Projets from "./components/Projects";
-import "./app.css"
+import { motion, useScroll, useSpring } from "framer-motion";
+import { Outlet } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import NavBar from "./components/Navbar/NavBar";
+import Footer from "./components/Footer/Footer";
+import "./app.css";
 
 function App() {
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001,
+  });
 
-  
   return (
     <>
-    <NavBar/>
-    <Title/>
-    <Description/>
-    <Projets/>
+      <ToastContainer theme="dark"/>
+      <motion.div className="progress-bar" style={{ scaleX }} />
+      <NavBar />
+      <Outlet/>
+      <Footer/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
