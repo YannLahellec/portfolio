@@ -31,7 +31,7 @@ export const projects = [
 
   {
     title: "SoundWave",
-    description: " Projet Full Stack en (cours de production) sur une durée de 2 mois. Ce projet est l'élabotation d'un site d'événemets pour les collectifs français afin de mettre en avant leurs projets. Utilisation de MySql, Node.js, Express.js, React, JavaScript, Css et Html.",
+    description: " Projet Full Stack en (cours de production) sur une durée de 2 mois. Ce projet est l'élaboration d'un site d'événements pour les collectifs français afin de mettre en avant leurs projets. Utilisation de MySql, Node.js, Express.js, React, JavaScript, Css et Html.",
     image: SoundWave,
     link: "https://github.com/WildCodeSchool-2024-02/JS-Paris-BrainWaves-P3-Soundwave",
     color: "#171717"
