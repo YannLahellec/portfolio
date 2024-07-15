@@ -59,10 +59,7 @@
     height: 30vh;
     width: 54vw;
     border-radius: 5px;
-   }
-
-   .description-img {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
    }
 
    .txt-info {

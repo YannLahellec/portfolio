@@ -52,7 +52,7 @@
     height: 80vh;
     .card {
       width: 90vw;
-      height: 58vh;
+      max-height: fit-content;
 
     }
     section {
