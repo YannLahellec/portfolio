@@ -4,6 +4,15 @@ import RigolApp from "./assets/projets/rigol.png";
 import SoundWave from "./assets/projets/soundwave.png";
 
 export const projects = [
+  
+  {
+    title: "BrainBox",
+    description: "Deuxième projet réalisé dans le cadre de la formation sur une durée de 3 semaines. Création d’un site de jeu de quizz interactif (desktop et responsive) avec React, HTML, CSS et JavaScript.",
+    image: BrainBox,
+    link: "https://brainbox-five.vercel.app/",
+    color: "#171717"
+  },
+  
   {
     title: "WildGram",
     description:
@@ -12,15 +21,7 @@ export const projects = [
     link: "https://wildgram-alpha.vercel.app/",
     color: "#171717"
   },
-
-  {
-    title: "BrainBox",
-    description: "Deuxième projet réalisé dans le cadre de la formation sur une durée de 3 semaines. Création d’un site de jeu de quizz interactif (desktop et responsive) avec React, HTML, CSS et JavaScript.",
-    image: BrainBox,
-    link: "https://brainbox-five.vercel.app/",
-    color: "#171717"
-  },
-
+  
   {
     title: "RigolApp",
     description: "Projet lors du protojam sur une durée de 48h. Recherche du concept conception et creation de application.",
