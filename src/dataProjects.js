@@ -32,7 +32,7 @@ export const projects = [
 
   {
     title: "SoundWave",
-    description: " Projet Full Stack en (cours de production) sur une durée de 2 mois. Ce projet est l'élaboration d'un site d'événements pour les collectifs français afin de mettre en avant leurs projets. Utilisation de MySql, Node.js, Express.js, React, JavaScript, Css et Html.",
+    description: " Projet Full Stack en sur une durée de 2 mois. Ce projet est l'élaboration d'un site d'événements pour les collectifs français afin de mettre en avant leurs projets. Utilisation de MySql, Node.js, Express.js, React, JavaScript, Css et Html.",
     image: SoundWave,
     link: "https://soundwave-app.fr/",
     color: "#171717"
