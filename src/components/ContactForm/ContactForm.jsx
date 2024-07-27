@@ -1,8 +1,7 @@
 import { useRef } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import emailjs from "@emailjs/browser";
-import Linkedin from "../../assets/icons/linkedin logo.png";
-import Github from "../../assets/icons/github-mark-white.png";
+import {icons} from "../../assets";
 import "react-toastify/dist/ReactToastify.css";
 import "./contact.css";
 
@@ -87,7 +86,7 @@ function ContactForm() {
       <section>
         <div className="contact-icon-container">
           <img
-            src={Linkedin}
+            src={icons.linkedin}
             alt="icon"
             className="link-icon"
             onClick={() =>
@@ -95,7 +94,7 @@ function ContactForm() {
             }
           />
           <img
-            src={Github}
+            src={icons.github}
             alt=""
             className="git-icon"
             onClick={() =>

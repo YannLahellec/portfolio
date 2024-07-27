@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import DiscoBall from "../../assets/icons/disco ball sans fond.png";
+import DiscoBall from "../../assets/icons/disco-ball-sans-fond.png";
 import "./hobbies.css";
 
 function Hobbies () {
