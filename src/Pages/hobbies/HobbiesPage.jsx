@@ -1,4 +1,4 @@
-import Cabaret2 from "../assets/hobby/IMG_0361 - Copie.jpg";
+import Cabaret2 from "../../assets/hobby/IMG_0361 - Copie.jpg";
 import "./hobbiesPage.css";
 
 function HobbiesPage() {

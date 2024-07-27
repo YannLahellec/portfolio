@@ -1,0 +1,9 @@
+export { default as Title } from './Title/Title';
+export { default as Navbar } from './Navbar/NavBar';
+export { default as Footer } from './Footer/Footer';
+export { default as Hobbies } from './Hobbies/Hobbies';
+export { default as Competences } from './Competences/Competences';
+export { default as Description } from './Description/Description';
+export { default as ProjectCard } from './ProjectCard/ProjectCard';
+export { default as ContactForm } from './ContactForm/ContactForm';
+export { default as ProjectAnimated } from './Projets/ProjectAnimated';
